@@ -1,0 +1,26 @@
+<div class="container">
+    <form action = "/mailbox/send_mail" method="POST">
+      
+      <div class="form-group">
+        <label for="exampleInputEmail1"></label>
+        <input type="email" class="form-control" name ="send_email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="보내는 사람">
+      </div>
+      
+      <div class="form-group">
+        <label for="exampleInputEmail1"></label>
+        <input type="email" class="form-control" name ="get_email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="받는 사람">
+      </div>
+        
+      <div class="form-group">
+        <label for="exampleInputPassword1"></label>
+        <textarea class="form-control" name="title" rows="1" id="comment" placeholder="제목"></textarea>
+      
+      <div class="form-group">
+        <label for="exampleInputPassword1"></label>
+        <textarea class="form-control" name="textarea" rows="10" id="comment"></textarea>
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+    
+    </form>
+</div>
