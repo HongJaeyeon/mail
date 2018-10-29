@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'mailbox/send_mail'
+  
 
   root 'mailbox#create_mail'
   
